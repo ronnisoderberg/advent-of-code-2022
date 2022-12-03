@@ -1,16 +1,16 @@
-const { readFileSync, promises: fsPromises } = require('fs')
+const { readFileSync } = require('fs')
 
-const opponentMoves = {
-  Rock: 'A',
-  Paper: 'B',
-  Scissors: 'C'
-}
+// const opponentMoves = {
+//   Rock: 'A',
+//   Paper: 'B',
+//   Scissors: 'C'
+// }
 
-const myMoves = {
-  Rock: 'X',
-  Paper: 'Y',
-  Scissors: 'Z'
-}
+// const myMoves = {
+//   Rock: 'X',
+//   Paper: 'Y',
+//   Scissors: 'Z'
+// }
 
 let myScore = 0
 function RockPaperScissorsIO (filename) {
